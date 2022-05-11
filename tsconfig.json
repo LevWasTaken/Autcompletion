@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 17",
+
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./out",
+    "sourceMap": true,
+    "rootDir": "./src",
+    "lib": ["es6"]
+  },
+  "exclude": ["node_modules"]
+}
